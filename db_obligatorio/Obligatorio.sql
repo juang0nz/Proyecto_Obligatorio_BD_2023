@@ -1,5 +1,5 @@
 #INICIO
-CREATE DATABASE obligatorio;
+#CREATE DATABASE obligatorio;
 USE obligatorio;
 
 CREATE TABLE Logins(
@@ -18,7 +18,7 @@ CREATE TABLE Funcionarios(
     LogId VARCHAR(200) not null #Foreign key
 );
 
-CREATE TABLE Logins(
+CREATE TABLE Agenda(
     Nro INTEGER not null,
     Ci INTEGER not null,
     Fch_Agenda VARCHAR(200) not null
@@ -28,7 +28,7 @@ CREATE TABLE Carnet_Salud(
     Ci INTEGER not null,
     Fch_Emision VARCHAR(200) not null,
     Fch_Vencimiento VARCHAR(200) not null,
-    Comprobante VARCHAR(200) not null #Link a imagen????
+    Comprobante VARCHAR(200) not null #Link a imagen????/PATH
 );
 
 CREATE TABLE Periodos_Actualizacion(
