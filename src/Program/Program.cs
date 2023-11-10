@@ -17,14 +17,14 @@ class Program
                 Console.WriteLine("Conexión exitosa!");
 
                 // Ejemplo de consulta
-                string query = "SELECT * FROM TuTabla";
+                string query = "SELECT * FROM Funcionarios";
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            Console.WriteLine($"{reader["Columna1"]}, {reader["Columna2"]}");
+                            Console.WriteLine($"{reader["Ci"]}, {reader["Nombre"]}");
                             // Procesa los resultados
                         }
                     }

@@ -18,6 +18,15 @@ CREATE TABLE Funcionarios(
     LogId VARCHAR(200) not null #Foreign key
 );
 
+#Comandos de prueba
+
+INSERT INTO Funcionarios(Ci, nombre, apellido, fecha_nacimiento, direccion, Telefono, email, LogId) VALUES
+            (12345678, 'juan', 'perez', '1-1-2001', 'a 123 esq c', '123456789', 'a@a.sdf.com', '12345');
+
+INSERT INTO Funcionarios(Ci, nombre, apellido, fecha_nacimiento, direccion, Telefono, email, LogId) VALUES
+            (098765432, 'ana', 'perez', '1-1-2001', 'a 123 esq c', '123456789', 'a@a.sdf.com', '12345');
+
+
 alter table Funcionarios
     add constraint Funcionarios_Ci_pk
         primary key (Ci);
