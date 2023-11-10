@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 
 class Program
 {
     static void Main()
     {
-        string connectionString = "Server=localhost;Database=obligatorio;User ID=root;Password=bernardo";
+        string connectionString = "Server=localhost;Port=3306;Database=obligatorio;User ID=root;Password=bernardo";
 
-        using (SqlConnection connection = new SqlConnection(connectionString))
+        using (MySqlConnection connection = new MySqlConnection(connectionString))
         {
             try
             {
@@ -18,9 +18,9 @@ class Program
 
                 // Ejemplo de consulta
                 string query = "SELECT * FROM TuTabla";
-                using (SqlCommand command = new SqlCommand(query, connection))
+                using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    using (SqlDataReader reader = command.ExecuteReader())
+                    using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
