@@ -1,5 +1,5 @@
 #INICIO
-#CREATE DATABASE obligatorio;
+CREATE DATABASE obligatorio;
 USE obligatorio;
 
 CREATE TABLE Logins(
@@ -18,6 +18,14 @@ CREATE TABLE Funcionarios(
     LogId VARCHAR(200) not null #Foreign key
 );
 
+alter table Funcionarios
+    add constraint Funcionarios_Ci_pk
+        primary key (Ci);
+
+alter table Funcionarios
+    add constraint Funcionarios_LogId_fk
+        foreign key (LogId) references Logins (LogId);
+
 CREATE TABLE Agenda(
     Nro INTEGER not null,
     Ci INTEGER not null,
@@ -28,7 +36,7 @@ CREATE TABLE Carnet_Salud(
     Ci INTEGER not null,
     Fch_Emision VARCHAR(200) not null,
     Fch_Vencimiento VARCHAR(200) not null,
-    Comprobante VARCHAR(200) not null #Link a imagen????/PATH
+    Comprobante VARCHAR(200) not null #Link a imagen/PATH
 );
 
 CREATE TABLE Periodos_Actualizacion(
