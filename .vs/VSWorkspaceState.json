@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src\\Program"
+    "\\src",
+    "\\src\\Library"
   ],
   "PreviewInSolutionExplorer": false
 }

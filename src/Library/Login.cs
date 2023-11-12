@@ -1,8 +1,13 @@
 ﻿using System;
-
-public class Class1
+using System.Security.Cryptography.X509Certificates;
+namespace obligatorio
 {
-	public Class1()
+public class Login
+{
+	public Login()
 	{
-	}
+		Public int LogID{ get; set; }
+        Public string Password { get; set; }
+    }
+}
 }

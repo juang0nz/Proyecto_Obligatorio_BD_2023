@@ -1,8 +1,15 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
-public class Class1
+namespace obligatorio
 {
-	public Class1()
+    public class Agenda		
+{
+	public Agenda()
 	{
-	}
+		public int Numero { get; set; }
+		public int CI { get; set; }
+		public DateTime FechaAgenda { get; set; }
+    }
+}
 }

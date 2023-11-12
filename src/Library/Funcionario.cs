@@ -1,8 +1,9 @@
 ﻿using System;
+using MySql.Data.MySqlClient;
 namespace obligatorio
 {
 
-	public class Funcionario : IFuncionario
+	public class Funcionario 
 	{
 		public Funcionario()
 		{
@@ -14,12 +15,6 @@ namespace obligatorio
             public string Telefono { get; set; }
             public string Email { get; set; }
             public int LogId { get; set; }
-
-        // Implementación del método de la interfaz
-        public void MostrarInformacion()
-        {
-            Console.WriteLine($"Funcionario: {Nombre} {Apellido}, CI: {Ci}, Email: {Email}");
-        }
         }
     }
 }
