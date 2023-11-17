@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\db_obligatorio",
     "\\src",
-    "\\src\\Library"
+    "\\src\\Library",
+    "\\src\\Program"
   ],
+  "SelectedNode": "\\src\\Program\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
