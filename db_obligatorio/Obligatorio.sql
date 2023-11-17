@@ -7,6 +7,10 @@ CREATE TABLE Logins(
     Password VARCHAR(200) not null
 );
 
+alter table Logins
+    add constraint Logins_LogId_pk
+        primary key(LogId);
+
 CREATE TABLE Funcionarios(
     Ci INTEGER not null, #Primary key
     nombre VARCHAR(50) not null,
@@ -17,16 +21,6 @@ CREATE TABLE Funcionarios(
     email VARCHAR(50) not null,
     LogId VARCHAR(200) not null #Foreign key
 );
-
-#Comandos de prueba
-
-INSERT INTO Funcionarios(Ci, nombre, apellido, fecha_nacimiento, direccion, Telefono, email, LogId) VALUES
-            (12345678, 'juan', 'perez', '1-1-2001', 'a 123 esq c', '123456789', 'a@a.sdf.com', '12345');
-
-INSERT INTO Funcionarios(Ci, nombre, apellido, fecha_nacimiento, direccion, Telefono, email, LogId) VALUES
-            (098765432, 'ana', 'perez', '1-1-2001', 'a 123 esq c', '123456789', 'a@a.sdf.com', '12345');
-
-
 alter table Funcionarios
     add constraint Funcionarios_Ci_pk
         primary key (Ci);
@@ -34,6 +28,17 @@ alter table Funcionarios
 alter table Funcionarios
     add constraint Funcionarios_LogId_fk
         foreign key (LogId) references Logins (LogId);
+        
+#Comandos de prueba
+INSERT INTO Logins(, nombre)
+
+
+INSERT INTO Funcionarios(Ci, nombre, apellido, fecha_nacimiento, direccion, Telefono, email, LogId) VALUES
+            (12345678, 'juan', 'perez', '1-1-2001', 'a 123 esq c', '123456789', 'a@a.sdf.com', 'juan.perez');
+
+INSERT INTO Funcionarios(Ci, nombre, apellido, fecha_nacimiento, direccion, Telefono, email, LogId) VALUES
+            (098765432, 'ana', 'perez', '1-1-2001', 'a 123 esq c', '123456789', 'a@a.sdf.com', 'ana.perez');
+
 
 CREATE TABLE Agenda(
     Nro INTEGER not null,
