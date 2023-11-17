@@ -1,5 +1,7 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
+namespace obligatorio
+{
 
 class Program
 {
@@ -36,5 +38,8 @@ class Program
                 Console.WriteLine($"Error: {ex.Message}");
             }
         }
+
+
     }
+}
 }
