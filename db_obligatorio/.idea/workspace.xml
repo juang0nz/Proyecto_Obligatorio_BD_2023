@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584e2f66-2e34-4434-a484-f5f8e4fc8a7c" name="Changes" comment="" />
+    <list default="true" id="584e2f66-2e34-4434-a484-f5f8e4fc8a7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7/storage_v2/_src_/schema/BDIPrimerParcial.2IB1bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7/storage_v2/_src_/schema/BDIPrimerParcial.2IB1bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7/storage_v2/_src_/schema/obligatorio.k8s_MA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7/storage_v2/_src_/schema/obligatorio.k8s_MA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7/storage_v2/_src_/schema/practico1.jKf22g.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/06ebb1a0-19e6-4da6-924a-89d138dce4c7/storage_v2/_src_/schema/practico1.jKf22g.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Obligatorio.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Obligatorio.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -23,8 +34,9 @@
     "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Juan",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/santi/OneDrive/Desktop/Bases de datos/Practico 1/BDIParcial_Script.sql"
+    "last_opened_file_path": "C:/Users/jdgb8/Desktop/Obligatorio_BD_2023"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [

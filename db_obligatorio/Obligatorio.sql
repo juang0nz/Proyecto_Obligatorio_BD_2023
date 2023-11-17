@@ -1,6 +1,6 @@
 #INICIO
-CREATE DATABASE obligatorio;
-USE obligatorio;
+#CREATE DATABASE obligatorio;
+#USE obligatorio;
 
 CREATE TABLE Logins(
     LogId VARCHAR(200) not null,
