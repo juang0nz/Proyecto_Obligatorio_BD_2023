@@ -57,7 +57,7 @@ CREATE TABLE Periodos_Actualizacion(
 
 # comando para obtener los funcionarios que no subieron el comprobante.
 
-SELECT F.Ci, F.Nombre, F.Apellido, F.Fch_Nacimiento, F.Dirección, F.Teléfono, F.Email
+SELECT F.Ci, F.Nombre, F.Apellido, F.Fch_Nacimiento, F.Dirección, F.Telefono, F.Email
 FROM Funcionarios F
 LEFT JOIN Carnet_Salud CS ON F.Ci = CS.Ci
 WHERE CS.Ci IS NULL;
